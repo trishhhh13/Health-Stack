@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="water_reminder">Water Reminder</string>
+    <string name="calorie_counter">Calorie Counter</string>
+    <string name="pedometer">Pedometer</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Health Stack</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="water_reminder">Water Reminder</string>
+    <string name="calorie_counter">Calorie Counter</string>
+    <string name="pedometer">Pedometer</string>
+</resources>

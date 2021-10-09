@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292765544735",
+    "project_id": "health-stack",
+    "storage_bucket": "health-stack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292765544735:android:e29aad058694397d5a402a",
+        "android_client_info": {
+          "package_name": "com.trishala13kohad.healthstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292765544735-gh8mr9q2tfdiqpi50iasqf86f03t3fjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRGQ9dW1A4AhaSg-ipGwQByylrpBfOPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292765544735-gh8mr9q2tfdiqpi50iasqf86f03t3fjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

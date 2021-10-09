@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_nav_menu">
+    <item
+        android:id="@+id/pedometerFragment"
+        android:title="@string/pedometer"
+        android:icon="@drawable/foot_print"/>
+    <item
+        android:id="@+id/waterReminderFragment"
+        android:title="@string/water_reminder"
+        android:icon="@drawable/water_glass" />
+    <item
+        android:id="@+id/caloriesFragment"
+        android:title="@string/calorie_counter"
+        android:icon="@drawable/cutlery"/>
+</menu>
