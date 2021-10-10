@@ -1,6 +1,7 @@
 package com.trishala13kohad.healthstack
 
 import android.os.Bundle
+import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private lateinit var bottomNavMenu: BottomNavigationView
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var toolBar: Toolbar
     private lateinit var navDrawer: NavigationView
     private lateinit var drawerLayout: DrawerLayout
 
@@ -27,6 +29,9 @@ class MainActivity : AppCompatActivity() {
         bottomNavMenu = findViewById(R.id.bottom_nav_menu)
         navDrawer = findViewById(R.id.nav_drawer)
         drawerLayout = findViewById(R.id.drawer_layout)
+        toolBar = findViewById(R.id.toolbar)
+
+        setSupportActionBar(toolBar)
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment)
         as NavHostFragment
