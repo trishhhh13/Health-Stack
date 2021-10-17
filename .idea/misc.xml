@@ -6,10 +6,17 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/activity_main.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/activity_splash.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_birth.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_calories.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_gender.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_height.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_initial_video.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_pedometer.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_sleep.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_wake_up.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_water_reminder.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_weight.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/layout/fragment_welcome.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/HealthStack/app/src/main/res/menu/nav_health_drawer.xml" value="0.16822916666666668" />
       </map>
