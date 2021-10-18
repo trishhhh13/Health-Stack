@@ -86,12 +86,20 @@
         android:id="@+id/initialVideoFragment"
         android:name="com.trishala13kohad.healthstack.InitialVideoFragment"
         android:label="activity_splash"
-        tools:layout="@layout/activity_splash" >
-        <action
-            android:id="@+id/action_initialVideoFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment" />
-        <action
-            android:id="@+id/action_initialVideoFragment_to_waterReminderFragment"
-            app:destination="@id/waterReminderFragment" />
-    </fragment>
+        tools:layout="@layout/activity_splash" />
+    <fragment
+        android:id="@+id/signUpOrLoginFragment"
+        android:name="com.trishala13kohad.healthstack.SignUpOrLoginFragment"
+        android:label="fragment_sign_up_or_login"
+        tools:layout="@layout/fragment_sign_up_or_login" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.trishala13kohad.healthstack.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.trishala13kohad.healthstack.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
 </navigation>
