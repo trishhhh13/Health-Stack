@@ -1,6 +1,7 @@
 package com.trishala13kohad.healthstack
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -32,6 +33,8 @@ class MainActivity : AppCompatActivity() {
         toolBar = findViewById(R.id.toolbar)
 
         setSupportActionBar(toolBar)
+        supportActionBar?.hide()
+        bottomNavMenu.visibility = View.GONE
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment)
         as NavHostFragment

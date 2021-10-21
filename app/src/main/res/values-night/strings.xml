@@ -33,4 +33,5 @@
     <string name="text">Let’s create your \naccount</string>
     <string name="welcome_back">Welcome back!</string>
     <string name="log_into_your_health_stack_account">Log into your Health Stack account</string>
+    <string name="continue_with_google">Continue with Google</string>
 </resources>
