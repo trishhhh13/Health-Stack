@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/male_image"
+        android:id="@+id/birth_image"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="144dp"
@@ -51,11 +51,11 @@
         app:layout_constraintTop_toBottomOf="@id/ask_gender" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/next_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="64dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

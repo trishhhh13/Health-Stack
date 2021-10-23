@@ -8,9 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import androidx.viewpager2.widget.ViewPager2
 import com.trishala13kohad.healthstack.R
-import com.trishala13kohad.healthstack.userOnBoarding.ViewPagerFragmentDirections
 
 class SignUpOrLoginFragment : Fragment(R.layout.fragment_sign_up_or_login){
 
@@ -28,13 +26,12 @@ class SignUpOrLoginFragment : Fragment(R.layout.fragment_sign_up_or_login){
         signUp = view.findViewById(R.id.sign_up_button)
         logIn = view.findViewById(R.id.log_in_button)
 
-        val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
-
         signUp.setOnClickListener{
-            viewPager?.currentItem = 1
+            val action = SignUpOrLoginFragmentDirections.actionSignUpOrLoginFragmentToWelcomeFragment()
+            findNavController().navigate(action)
         }
         logIn.setOnClickListener{
-            val action = ViewPagerFragmentDirections.actionViewPagerFragmentToLogInFragment()
+            val action = SignUpOrLoginFragmentDirections.actionSignUpOrLoginFragmentToLogInFragment()
             findNavController().navigate(action)
         }
 

@@ -1,5 +1,6 @@
 package com.trishala13kohad.healthstack
 
+import android.R.id
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.Toolbar
@@ -13,6 +14,10 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import android.R.id.toggle
+
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -51,5 +56,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    fun lockDrawer() {
+
+        drawerLayout = findViewById(R.id.drawer_layout)
+        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+    }
+
+    fun unlockDrawer() {
+        drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
     }
 }

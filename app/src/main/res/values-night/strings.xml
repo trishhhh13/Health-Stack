@@ -18,7 +18,7 @@
     <string name="height_image_as_per_the_given_gender">Height image as per the given gender</string>
     <string name="ft">ft</string>
     <string name="in">in</string>
-    <string name="feet_amp_inches"><![CDATA[feet & inches]]></string>
+    <string name="feet_amp_inches">feet &amp; inches</string>
     <string name="or_sign">|</string>
     <string name="cm">cm</string>
     <string name="weight_image_based_on_gender">Weight Image based on gender</string>
@@ -34,4 +34,6 @@
     <string name="welcome_back">Welcome back!</string>
     <string name="log_into_your_health_stack_account">Log into your Health Stack account</string>
     <string name="continue_with_google">Continue with Google</string>
+    <string name="cms">cms</string>
+    <string name="birth_image">Birth Image</string>
 </resources>

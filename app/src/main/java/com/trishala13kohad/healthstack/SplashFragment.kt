@@ -31,7 +31,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
         videoView.start()
 
         videoView.setOnCompletionListener {
-            val action = SplashFragmentDirections.actionSplashFragmentToViewPagerFragment()
+            val action = SplashFragmentDirections.actionSplashFragmentToSignUpOrLoginFragment()
             findNavController().navigate(action)
         }
     }

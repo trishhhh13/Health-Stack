@@ -29,20 +29,8 @@
             android:id="@+id/action_splashFragment_to_waterReminderFragment"
             app:destination="@id/waterReminderFragment" />
         <action
-            android:id="@+id/action_splashFragment_to_viewPagerFragment"
-            app:destination="@id/viewPagerFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/viewPagerFragment"
-        android:name="com.trishala13kohad.healthstack.userOnBoarding.ViewPagerFragment"
-        android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" >
-        <action
-            android:id="@+id/action_viewPagerFragment_to_logInFragment"
-            app:destination="@id/logInFragment" />
-        <action
-            android:id="@+id/action_viewPagerFragment_to_waterReminderFragment"
-            app:destination="@id/waterReminderFragment" />
+            android:id="@+id/action_splashFragment_to_signUpOrLoginFragment"
+            app:destination="@id/signUpOrLoginFragment" />
     </fragment>
     <fragment
         android:id="@+id/logInFragment"
@@ -51,6 +39,90 @@
         tools:layout="@layout/fragment_log_in" >
         <action
             android:id="@+id/action_logInFragment_to_waterReminderFragment"
+            app:destination="@id/waterReminderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpOrLoginFragment"
+        android:name="com.trishala13kohad.healthstack.signUpOrLogIn.SignUpOrLoginFragment"
+        android:label="fragment_sign_up_or_login"
+        tools:layout="@layout/fragment_sign_up_or_login" >
+        <action
+            android:id="@+id/action_signUpOrLoginFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_signUpOrLoginFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_genderFragment"
+            app:destination="@id/genderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genderFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.GenderFragment"
+        android:label="fragment_gender"
+        tools:layout="@layout/fragment_gender" >
+        <action
+            android:id="@+id/action_genderFragment_to_weightFragment"
+            app:destination="@id/weightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weightFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.WeightFragment"
+        android:label="fragment_weight"
+        tools:layout="@layout/fragment_weight" >
+        <action
+            android:id="@+id/action_weightFragment_to_heightFragment"
+            app:destination="@id/heightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/heightFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.HeightFragment"
+        android:label="fragment_height"
+        tools:layout="@layout/fragment_height" >
+        <action
+            android:id="@+id/action_heightFragment_to_birthFragment"
+            app:destination="@id/birthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/birthFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.BirthFragment"
+        android:label="fragment_birth"
+        tools:layout="@layout/fragment_birth" >
+        <action
+            android:id="@+id/action_birthFragment_to_wakeUpFragment"
+            app:destination="@id/wakeUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wakeUpFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.WakeUpFragment"
+        android:label="fragment_wake_up"
+        tools:layout="@layout/fragment_wake_up" >
+        <action
+            android:id="@+id/action_wakeUpFragment_to_sleepFragment"
+            app:destination="@id/sleepFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sleepFragment"
+        android:name="com.trishala13kohad.healthstack.userOnBoarding.SleepFragment"
+        android:label="fragment_sleep"
+        tools:layout="@layout/fragment_sleep" >
+        <action
+            android:id="@+id/action_sleepFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.trishala13kohad.healthstack.signUpOrLogIn.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_waterReminderFragment"
             app:destination="@id/waterReminderFragment" />
     </fragment>
 </navigation>
