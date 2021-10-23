@@ -36,5 +36,21 @@
         android:id="@+id/viewPagerFragment"
         android:name="com.trishala13kohad.healthstack.userOnBoarding.ViewPagerFragment"
         android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" />
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_waterReminderFragment"
+            app:destination="@id/waterReminderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.trishala13kohad.healthstack.signUpOrLogIn.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFragment_to_waterReminderFragment"
+            app:destination="@id/waterReminderFragment" />
+    </fragment>
 </navigation>

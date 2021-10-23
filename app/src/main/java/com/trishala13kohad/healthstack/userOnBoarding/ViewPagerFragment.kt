@@ -28,15 +28,14 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager) {
 
         val fragmentList = arrayListOf(
             SignUpOrLoginFragment(),
-            SignUpFragment(),
-            LogInFragment(),
             WelcomeFragment(),
             GenderFragment(),
             WeightFragment(),
             HeightFragment(),
             BirthFragment(),
             WakeUpFragment(),
-            SleepFragment()
+            SleepFragment(),
+            SignUpFragment(),
         )
         val adapter = ViewPagerAdapter(fragmentList,
         requireActivity().supportFragmentManager, lifecycle)

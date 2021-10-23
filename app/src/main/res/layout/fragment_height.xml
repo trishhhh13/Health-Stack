@@ -62,11 +62,11 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/height_image_as_per_the_given_gender"
         android:src="@drawable/female_height"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ask_height"
-        android:contentDescription="@string/height_image_as_per_the_given_gender" />
+        app:layout_constraintTop_toBottomOf="@id/ask_height" />
 
     <NumberPicker
         android:id="@+id/feet_picker"
@@ -96,6 +96,7 @@
         android:layout_marginStart="4dp"
         app:layout_constraintBottom_toBottomOf="@id/height_image"
         app:layout_constraintStart_toEndOf="@id/feet"
+        app:layout_constraintEnd_toStartOf="@id/inch"
         app:layout_constraintTop_toTopOf="@id/height_image" />
 
     <TextView
@@ -108,7 +109,8 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@id/inch_picker"
         app:layout_constraintStart_toEndOf="@id/inch_picker"
-        app:layout_constraintTop_toTopOf="@id/inch_picker"/>
+        app:layout_constraintTop_toTopOf="@id/inch_picker"
+        app:layout_constraintEnd_toEndOf="parent"/>
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
